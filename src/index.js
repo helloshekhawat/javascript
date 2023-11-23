@@ -6,6 +6,14 @@ dotenv.config({
 })
 
 connectDB()
+.then(()=>{
+    app.listen(process.env.PORT || 8000, () =>{
+        console.log("server is running at port 8000")
+    })
+})
+.catch((err)=>{
+    console.log("connection fail", err)
+})
 // first method to connect datebase
 /*
 import { Express } from "express";
