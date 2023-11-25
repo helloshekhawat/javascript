@@ -1,24 +1,14 @@
-##first you have to upload cloudinary
+### Steps To Register User
+- get data from user
+- validation li empty toh nhi h
+- check if user already exists
+- check for image -upload them to cloudinary
+- create user object - create entry in db
+- remove  password and refresh token field from response
+- check for user creation
+- return res
+---
 
+### connect database file is in comments right now enable it before putting in production
 
-#install cloudinary using npm i cloudinary
- "dependencies": {
-    "bcrypt": "^5.1.1",
-    "cloudinary": "^1.41.0",
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.0.0",
-    "mongoose-aggregate-paginate-v2": "^1.0.6",
-    "multer": "^1.4.5-lts.1"
-  }
-  dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.0.0",
-    "mongoose-paginate-v2": "^1.7.4",
-    "nodemon": "^3.0.1",
-    "prettier": "^3.1.0"
-  
+---

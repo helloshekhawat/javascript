@@ -13,6 +13,9 @@
 // }
 
 // export default connectDB
+
+// second way to connect database
+/*
 import mongoose from "mongoose";
 import { DB_NAME } from "../constant.js";
 
@@ -28,3 +31,6 @@ const connectDB = async () => {
 }
 
 export default connectDB
+*/
+
+console.log("in index.js file database")
